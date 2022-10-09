@@ -1,2 +1,2 @@
-# portfolio
-This is my portfolio that I created using HTML and CSS.
+# Portfolio
+Welcome to the source code of my personal portfolio website.
