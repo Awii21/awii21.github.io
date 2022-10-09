@@ -6,8 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awais' Profile</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="shortcut icon" href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-contact-contact-us-flaticons-lineal-color-flat-icons.png" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-contact-contact-us-flaticons-lineal-color-flat-icons.png"
+        type="image/x-icon">
+    <style>
+        .navbar {
+            flex-grow: 1;
+            flex-shrink: 0;
+            text-align: right;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            margin: 0 40px 0 0;
 
+        }
+    </style>
 
 
 </head>
@@ -15,7 +29,16 @@
 <body class=" bg-black font-sans antialiased text-gray-100 leading-normal tracking-wider bg-cover"
     style="background-image: url('background.jpg')">
 
-    <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
+    <nav class="navbar">
+        <div class="pt-10 pb-8">
+            <div>
+                <a href="./NES/NES.html"
+                    class="bg-teal-700  hover:bg-teal-900 text-white font-bold py-2 px-4 rounded-full">
+                    About Me </a>
+            </div>
+    </nav>
+
+    <div style="height: 80vh;" class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-8 lg:my-0">
 
         <!-- Content column -->
         <div
@@ -38,7 +61,7 @@
                         <path
                             d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
                     </svg>
-                   Front-End Web Developer
+                    Front-End Web Developer
                 </p>
 
                 <p class="pt-2 text-gray-300 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
@@ -65,7 +88,7 @@
                 <div class="pt-10 pb-8">
                     <a href="tel:+92 317 3002516"
                         class="bg-teal-700 hover:bg-teal-900 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Me
+                        Get In Touch
                     </a>
                 </div>
 
@@ -139,4 +162,5 @@
     </script>
 
 </body>
+
 </html>
